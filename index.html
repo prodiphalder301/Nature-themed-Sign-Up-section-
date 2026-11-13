@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up/Sign In</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: black;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .body1
+        {
+            margin-top: 20px;
+            background-color: rgb(213, 255, 213);
+            box-shadow: inset 2px 2px black;
+            height: 10%;
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            border-radius: 20px;
+            box-shadow: inset 2px 2px 20px 8px green;
+            font-size: 100%;
+            cursor: pointer;
+        }
+        .body1:hover
+        {
+            box-shadow : inset 2px 2px 20px 20px green;
+        }
+        .cont {
+            height: 500px;
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            background-image: url(https://lens.usercontent.google.com/banana?agsi=CmdnbG9iYWw6OjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDAxNDE6MTo0ODlmMThjYTcxMWMzYzhjOjAwMDA1NWNmZWM3MDAyNmQ6MDAwMDA1MmQwMGEwMzM2ODowMDA2NjAyODY1ZmE3M2FmEAIYAiIKaW1hZ2UvanBlZw==);
+            justify-content: center;
+        }
+
+        .top {
+            width: 90%;
+            height: 10%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            background: none;
+        }
+
+        .tx {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            height: 70%;
+            background-color: #d1fdd1;
+        }
+
+        img {
+            background: none;
+            width: 25px;
+            object-fit: cover;
+        }
+
+        .body {
+            margin-top: 20px;
+            background-color: rgb(213, 255, 213);
+            box-shadow: inset 2px 2px black;
+            height: 60%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 20px;
+            box-shadow: inset 2px 2px 20px 8px green
+        }
+
+        h2 {
+            background: none;
+            margin: 0;
+            margin-top: 30px;
+            text-align: center;
+            box-shadow: inset 0 0 20px 0px #00be00;
+            width: 50%;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+
+        input {
+            text-align: center;
+            height: 10%;
+            width: 80%;
+            background: none;
+            border-radius: 10px;
+            box-shadow: inset 0 0 20px 0px #00be00;
+        }
+
+        input::placeholder {
+            color: black;
+            font-size: 18px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="top">
+            <div class="tx">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                    alt="">
+            </div>
+            <div class="tx">
+                <img src="f.png" alt="">
+            </div>
+        </div>
+        <div class="body">
+            <h2>Enter you Email</h2>
+            <input type="email" placeholder="Enter Your Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+        </div>
+        <div class="body1">Sign Up</div>
+    </div>
+</body>
+
+</html>
